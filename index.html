@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>c1.11-Timer</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div>
+		<h1 class="countdown-title">Countdown Clock</h1>
+	  <p class="countdown-instruction j-instruction">Введите время или воспользуйтесь кнопками plus и minus</p>		
+	</div>
+  <section class="countdown">
+    <div class="countdown-number">
+      <input type="text" class="minutes countdown-time" placeholder="00"></input>
+      <p class="countdown-text">Minutes</p>
+    </div>
+    <div class="countdown-number">
+      <input type="text" class="seconds countdown-time" placeholder="00"></input>
+      <p class="countdown-text">Seconds</p>
+    </div>
+  </section>
+  <div class="message"></div>
+  <div>
+    <button class="plus j-btn-plus">plus</button>
+    <button class="minus j-btn-minus">minus</button>
+  </div>
+  <div>
+    <button class="start j-btn-start">start</button>
+    <button class="pause j-btn-pause">pause</button>
+    <button class="reset j-btn-reset">reset</button>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
